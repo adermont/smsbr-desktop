@@ -1,0 +1,42 @@
+h1 {
+	color: #7D2052;
+	border-bottom: 1px solid;
+	font: 16pt Impact;
+}
+div.me {
+	background-color: #2AB9C9;
+	color: #14727D;
+	border: 2px solid #14727D;
+	transform: skew(0deg,2deg);
+}
+div.other {
+    background-color: #7D2052;
+	color: #DD85C7;
+	border: 2px solid #fff;
+	transform: skew(0deg,-2deg);
+}
+
+div.me span.hour {
+	margin-top: 4pt;
+	font: 10px Impact;
+	color: #14727D;
+}
+div.other span.hour {
+	margin-top: 4pt;
+	font: 10px Impact;
+	color: #C6699B;
+}
+
+@media screen {
+	html {
+		font: 14px Arial;
+		background-color: #DD85C7;
+	}
+}
+@media print {
+	html {
+		font: 12px Arial;
+		background-color: #ffffff;
+		-webkit-print-color-adjust: exact;
+	}
+}

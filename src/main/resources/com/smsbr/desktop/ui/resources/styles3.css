@@ -1,0 +1,37 @@
+h1 {
+	color: #53A6A6;
+	border-bottom: 1px solid;
+	font: 16pt Impact;
+}
+div.me {
+	background-color: #8B3B8C;
+	color: #3C2240;
+}
+div.other {
+	color: #A3CFD9;
+    background-color: #53A6A6;
+}
+div.me span.hour {
+	margin-top: 4pt;
+	font: 10px Impact;
+	color: #3C2240;
+}
+div.other span.hour {
+	margin-top: 4pt;
+	font: 10px Impact;
+	color: #A3CFD9;
+}
+
+@media screen {
+	html {
+		font: 14px Arial;
+		background-color: #A3CFD9;
+	}
+}
+@media print {
+	html {
+		font: 12px Arial;
+		background-color: #ffffff;
+		-webkit-print-color-adjust: exact;
+	}
+}
